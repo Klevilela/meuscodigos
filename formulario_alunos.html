@@ -1,0 +1,55 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulario para coleta de dados pesoais dos alunos de TDS do IFPI</h1>
+    <h3>Preencha seus dados</h3>
+    <form action="cadastro.php" method="POST">
+        <label for="fnname">Primeiro nome</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+
+        <label for="lnname">Último nome</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <label for="name">Matrícula</label><br>
+        <input type="text" id="matricula" name="num_matri" value="">
+
+        <br>
+
+        <label for="fnname">Turno</label><br>
+        <br>
+        <input type="radio" id="verspentino" name="gender" value="verspentino">Verspentino<br>
+        <input type="radio" id="noturno" name="gender" value="noturno">Noturno<br>
+        <br>
+
+        <label for="fnname">Nº da turma</label><br>
+        <input type="checkbox" id="turma_1" name="turma_1" value="166">
+        <label for="turma_1">166</label><br>
+
+        <input type="checkbox" id="turma_2" name="turma_2" value="266">
+        <label for="turma_2">266</label><br>
+        
+        <input type="checkbox" id="turma_3" name="turma_3" value="366">
+        <label for="turma_3">366</label><br>
+        
+        <input type="checkbox" id="turma_4" name="turma_4" value="166E">
+        <label for="turma_4">166E</label><br>
+
+        <input type="checkbox" id="turma_5" name="turma_5" value="186">
+        <label for="turma_5">186</label><br>
+
+        <input type="checkbox" id="turma_6" name="turma_6" value="286">
+        <label for="turma_6">286</label><br>
+
+        <input type="checkbox" id="turma_7" name="turma_7" value="386">
+        <label for="turma_7">386</label><br>
+        <br>
+        <label for="fim">Finalizar preencimento de dados pessoais</label><br>
+        <br>
+        <input type="submit" value="Enviar"><br>
+        
+    </form>
+</body>
+</html>
