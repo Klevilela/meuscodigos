@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulario para coleta de dados pesoais dos alunos Tec Gestão ambiental IFPI</h1>
+    <h3>Preencha seus dados</h3>
+    <form action="cadastro.php" method="POST">
+        <label for="fnname">Primeiro nome</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+
+        <label for="lnname">Último nome</label><br>
+        <input type="text" id="lname" name="lname" value=""><br>
+
+        <label for="name">Matrícula</label><br>
+        <input type="text" id="matricula" name="num_matri" value="">
+
+        <br>
+
+        <label for="fnname">Turno</label><br>
+        <br>
+        <input type="radio" id="verspentino" name="gender" value="verspentino">Verspentino<br>
+        <input type="radio" id="noturno" name="gender" value="noturno">Noturno<br>
+        <br>
+
+        <label for="fnname">Nº da turma</label><br>
+        <input type="checkbox" id="turma_1" name="turma_1" value="1">
+        <label for="turma_1">1</label><br>
+
+        <input type="checkbox" id="turma_2" name="turma_2" value="2">
+        <label for="turma_2">2</label><br>
+        
+        <input type="checkbox" id="turma_3" name="turma_3" value="3">
+        <label for="turma_3">3</label><br>
+        
+        <br>
+        <input type="submit" value="Enviar"><br>
+        
+    </form>
+</body>
+</html>
