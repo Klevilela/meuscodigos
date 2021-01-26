@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style_form.css">
+    <title>Formulário</title>
+</head>
+    <body>
+        <p id="demo1">Bom dia !</p>
+        <br>
+        <h1>Informe os valores para somar</h1>
+        <p>Primeiro valor:</p>
+        <input type="text" id="v1">
+        <p>Segundo valor:</p>
+        <input type="text" id="v2">
+        <p id="res">Resposta: </p>
+        <button type="button" onclick="Soma()">Soma</button>
+        <br>
+        <br>
+        <br>
+        <script>
+            if (new Date().getHours() < 18) {
+                document.getElementById("demo1").innerHTML("Bom dia !");
+            }
+            
+
+            function Soma(){
+                var e1 = parseint(document.getElementById("v1").value);
+                var e2 = parseint(document.getElementById("v2").value);
+                document.getElementById("res").innerHTML="Resposta: "+(v1 + v2);
+            }
+        </script>
+        <h1>Formulario para coleta de dados escolar</h1>
+        <h3>Preencha seus dados</h3>
+        <form action="cadastro.php" method="POST">
+            <label for="fnname">Primeiro nome</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+
+            <label for="lnname">Último nome</label><br>
+            <input type="text" id="lname" name="lname" value=""><br>
+
+            <br>
+
+            <label for="fnname">Turno</label><br>
+            <br>
+            <input type="radio" id="matutino" name="gender" value="matutino">matutino<br>
+            <input type="radio" id="verspentino" name="gender" value="verspentino">Verspentino<br>
+            <input type="radio" id="noturno" name="gender" value="noturno">Noturno<br>
+            <br>
+
+            <label for="fnname">Nível escolar</label><br>
+            <input type="checkbox" id="fundamental" name="fundamental" value="fundamental">
+            <label for="turma_1">Fundamental</label><br>
+
+            <input type="checkbox" id="médio" name="médio" value="médio">
+            <label for="turma_2">Médio</label><br>
+            
+            <input type="checkbox" id="técnico" name="técnico" value="técnico">
+            <label for="turma_3">Técnico</label><br>
+            
+            <input type="checkbox" id="superior" name="superior" value="superior">
+            <label for="turma_4">Superior</label><br>
+
+            <label for="fim">Finalizar preencimento de dados pessoais</label><br>
+            <br>
+            <input type="submit" value="Enviar"><br>
+            
+        </form>
+    <a href="p1_tf.html" target="_blank" rel="">Página inicial</a>
+    <br>
+    <br>
+    <a href="p2_tf.html" target="_blank" rel="">Página 2</a>
+    <br>
+    <br>
+    <a href="p3_tf.html" target="_blank" rel="">Página anterior</a>
+    
+</body>
+</html>

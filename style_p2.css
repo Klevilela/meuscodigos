@@ -1,0 +1,10 @@
+body{background-image: url("images.jfif");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+h1{color: green;}
+p{color:white;font-size: larger;font-family: Arial; text-align: justify;}
+div{font-weight: bold; color: red; font-size: 150%; font-family: Arial;}
+p{color:black;font-size: larger;font-family: Arial; text-align: justify;}
+h3{color: rgb(255, 0, 0); font-weight: bold;}
+a{font-family: Arial; color:green;}
