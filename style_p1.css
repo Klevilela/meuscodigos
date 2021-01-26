@@ -1,7 +1,4 @@
-body{background-image: url("edu.jfif");
-    background-repeat: no-repeat;
-    background-position: left top;
-};
+body{background-image: url("edu.jfif");}
 h1{color: white;}
 p{color:black;font-size: larger;font-family: Arial; text-align: justify;}
 div{font-weight: bold; color: green; font-size: 130%; font-family: Arial;}
