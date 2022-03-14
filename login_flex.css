@@ -1,0 +1,77 @@
+body{background: linear-gradient(rgba(117, 113, 113, 0.726), rgb(170, 143, 143))}/*cor de fundo do body: corresponde a cor degradê amarronzado-cinza*/
+section{
+    background: white; /*cor do section, visto na forma de 'cartão'*/
+    border-radius: 20px;/*espessura do arredondamento da borda*/
+    border: 10px;/*largura da borda*/
+    padding: 15px;/*distância da borda ao conteúdo*/
+    width: 400px;/*largura*/
+    margin: auto;
+    margin-top: 30px;/*distância da margem do topo ao section*/
+    border-style: solid;/*estilo da borda: como a borda deve ficar, por exemplo, arredondada, sem borda etc...*/
+    border-color: white;/*cor da borda*/
+    text-align: center;/*alinhamento do conteúdo do section*/
+}
+
+h1{text-align: center;}/*'Log in'escrito no centro*/
+p{text-align: center;}/*'or login using email' escrito no centro*/
+
+hr{/*Linha verde abaixo do 'Log in'*/
+    width: 5cm; /*largura de 5cm*/
+    border: 5px solid;/*5px de espessura arredondada*/
+    border-radius: 10px;
+    border-color: rgba(12, 231, 129, 0.781);/*cor da linha*/    
+}
+
+img{/*ajuste dos três icones*/
+
+    height: 40px;/*altura das imagens*/
+    width: 50px;/*largura*/
+    margin: auto;/*margem*/
+    display: inline;/*como será mostrado as imagens: alinhadas*/
+    margin-left: 15px;/*distância do item à margem esquerda*/
+    margin-bottom: 15px;/*distância do item à margem inferior*/
+}
+
+.pri_pol, .ter_con{display: inline;}/*mostra que estão alinhados os links: 'Forgot password' e 'Terms & conditions*/
+/*'.ter_con' é a refência para usar o css. Relativo ao link 'Privacy Policy' cuja classe possui nome no início falado*/
+
+.pri_pol{ margin-right: 60px; margin-top: 30px;/*margin: 15px 50px 20px 10px;*/}
+.fpwd{margin-left: 30px; margin-right: 40px;}
+
+.email, .pwd{
+    /*o .email = <label class='email'...>*/
+    text-align: justify;/*Os campos Email e Password serão escrito à esquerda*/
+    font-size: 110%;/*tamanho da fonte*/
+    font-family: 'Arial';/*fonte a ser usada*/
+    /*font-weight: bold*/;
+}
+
+form{text-align: justify;}/*todo o conteúdo dentro da tag <form> será justificado*/
+
+input{
+    width: 350px;/*largura do botão*/
+    border: 10px;/*tamanho da borda*/
+    border-radius: 20px;/*arredondamento da borda do email e password*/
+    border-style: inherit;/*estilo da borda*/
+    background: rgba(198, 235, 198, 0.801)/*cor*/;
+}
+
+.rmbe{margin-top: 20px; width: 20px;}/*.rmbe= <input class='rmbe' type='checkbox'>...*/
+
+.sbmt{
+    /*.sbmt= <input class='sbmt' type='submit'>...*/
+    margin-bottom: 20px;/*distância do botão até parte de baixo do margem*/
+    width: 350px;/*largura do botão*/
+    border: 20px;/*tamanho da borda*/
+    border-radius: 20px;/*arredondamento da borda*/
+    border-style: inherit;/*estilo da borda*/
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,228,159,1) 0%, rgba(15,208,170,0.9416141456582633) 11%, rgba(6,157,54,1) 29%, rgba(0,255,132,1) 100%);;
+    /*no background será a cor do botão*/
+
+
+    /*fonte do texto do botão*/   
+    color: white;/*cor do botão*/
+    font-size: 130%;/*tamanho da fonte*/
+    font-family: 'Arial';/*fonte*/
+    font-weight: bold;/*indica que o texto será destacado, negrito.*/
+}
